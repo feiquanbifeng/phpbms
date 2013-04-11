@@ -1,4 +1,4 @@
 phpbms
 ======
 
-Use PHP to developer a website
+练习使用PHP开发
