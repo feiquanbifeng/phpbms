@@ -92,10 +92,10 @@ Ext.onReady(function() {
             iconCls: 'acceptIcon',
             handler: function() {
                 if (Ext.isIE) {
-                    if (!Ext.isIE8) {
+                    if (!Ext.isIE8 || !Ext.isIE9) {
                         Ext.MessageBox.alert('温馨提示',
                                        '系统检测到您正在使用基于MSIE内核的浏览器<br>我们强烈建议立即切换到<b><a href="http://firefox.com.cn/" target="_blank">FireFox</a></b>或者<b><a href="http://www.google.com/chrome/?hl=zh-CN" target="_blank">GoogleChrome</a></b>浏览器体验飞一般的感觉!'
-                                       + '<br>如果您还是坚持使用IE,那么请使用基于IE8内核的浏览器登录!')
+                                       + '<br>如果您还是坚持使用IE,那么请使用基于IE8以上内核的浏览器登录!')
                         return;
                     }
                     login();
