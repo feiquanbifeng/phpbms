@@ -1,0 +1,24 @@
+﻿@CHARSET "UTF-8";
+
+body {
+    font-family: "宋体";
+	font-size: 14px;
+}
+
+.user {
+	background: url(../images/ext/user.gif) no-repeat 2px 2px;
+}
+
+.key {
+	background: url(../images/ext/key.gif) no-repeat 2px 2px;
+}
+
+.key,.user {
+	background-color: #FFFFFF;
+	padding-left: 20px;
+	font-size: 12px;
+}
+
+.mustinput{
+	color:blue;
+}
